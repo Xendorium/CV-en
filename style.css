@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, serif;
+    background-color: linen;
+    padding: 40px 0 40px 0;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 28px;
+    margin: 10px 0 10px 0;
+    color: cornflowerblue;
+    border-bottom: 5px solid;
+}
+
+span{
+    font-size: 20px;
+    color: moccasin;
+    font-weight: bold;
+    font-style: italic;
+}
+img{
+    width: 27%;
+    height: 27% ;
+}
+section, header{
+    padding: 10px 60px 10px 60px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: mintcream;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: deepskyblue;
+}
+header ul{
+    list-style: none;
+    padding-left: 0;
+}
+header img{
+    border-radius: 50%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    vertical-align: middle;
+    border-radius: 0;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+li{
+    margin-bottom: 10px;
+}
+b{
+    color: moccasin;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+.CV{
+    border: 2px solid aliceblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.Download{
+    text-align: center;
+}
+.rodo{
+    font-size: 12px;
+}
+.zakończenie{
+    background-color: deepskyblue;
+    padding-top: 10px;
+}
+.imie{
+    font-family: "none", serif;
+    font-size: 40px;
+    color: linen;
+}
+.info{
+    color: linen;
+    font-family: "math";
+    font-size: 20px;
+}
+.CV:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
+.column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.CV:active{
+    text-decoration: underline;
+}
